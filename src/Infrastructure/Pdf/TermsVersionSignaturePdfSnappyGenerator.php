@@ -40,7 +40,7 @@ class TermsVersionSignaturePdfSnappyGenerator implements TermsVersionSignaturePd
             ]
         );
 
-        if ($pdf === null) {
+        if (!\is_string($pdf)) {
             throw new \Exception('An error occured on pdf generation.');
         }
 

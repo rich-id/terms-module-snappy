@@ -1,0 +1,12 @@
+services:
+    _defaults:
+        autoconfigure: true
+        autowire: true
+        public: true
+
+    RichId\TermsModuleSnappyBundle\Infrastructure\Pdf\TermsVersionSignaturePdfSnappyGenerator: ~
+
+    RichId\TermsModuleSnappyBundle\Tests\Resources\Fixtures\DummyUserFixtures: ~
+    RichId\TermsModuleSnappyBundle\Tests\Resources\Fixtures\TermsFixtures: ~
+    RichId\TermsModuleSnappyBundle\Tests\Resources\Fixtures\TermsVersionFixtures: ~
+    RichId\TermsModuleSnappyBundle\Tests\Resources\Fixtures\TermsVersionSignatureFixtures: ~

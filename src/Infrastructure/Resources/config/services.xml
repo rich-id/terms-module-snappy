@@ -7,6 +7,6 @@
     <services>
         <defaults autowire="true" autoconfigure="true" public="false"/>
 
-        <service id="RichId\TermsModuleSnappyBundle\Domain\Factory\DefaultTermsVersionFactory" />
+        <service id="RichId\TermsModuleSnappyBundle\Infrastructure\Pdf\TermsVersionSignaturePdfSnappyGenerator" />
     </services>
 </container>
