@@ -18,7 +18,9 @@
     "require": {
         "php": ">=7.3|^8.0",
         "knplabs/knp-snappy-bundle": "1.7",
-        "rich-id/terms-module-bundle": "^2.0"
+        "rich-id/terms-module-bundle": "^2.0",
+        "richcongress/bundle-toolbox": "^1.1",
+        "sensio/framework-extra-bundle": "^5.0|^6.0"
     },
     "require-dev": {
         "doctrine/doctrine-bundle": "^2.0",
